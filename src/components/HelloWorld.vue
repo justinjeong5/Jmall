@@ -1,9 +1,12 @@
 <script setup>
 import { ref } from "vue";
+import api from "@lib/api.js";
 
 defineProps({
     msg: String,
 });
+
+api
 
 const count = ref(0);
 </script>
