@@ -1,0 +1,61 @@
+$font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+// Text sizes
+
+$txt-biggest: 2rem;
+$txt-bigger: 1.5rem;
+$txt-big: 1.25rem;
+$txt-standard: 1rem;
+$txt-small: 0.875rem;
+$txt-smaller: 0.75rem;
+$txt-smallest: 0.65rem;
+
+// Text mixins
+
+@mixin h1 {
+	font-family: $font-family;
+	color: $txt-title;
+	font-size: $txt-bigger;
+	font-weight: 700;
+	line-height: $txt-biggest;
+}
+
+@mixin h2 {
+	font-family: $font-family;
+	color: $txt-title;
+	font-size: $txt-big;
+	font-weight: 700;
+	line-height: $txt-biggest;
+}
+
+@mixin h3 {
+	font-family: $font-family;
+	color: $txt-title;
+	font-size: $txt-standard;
+	font-weight: 700;
+	line-height: $txt-big;
+}
+
+@mixin h4 {
+	font-family: $font-family;
+	color: $txt-title;
+	font-size: $txt-small;
+	font-weight: 600;
+	line-height: $txt-big;
+}
+
+@mixin h5 {
+	font-family: $font-family;
+	color: $txt-title;
+	font-size: $txt-smaller;
+	font-weight: 600;
+	line-height: $txt-small;
+}
+
+@mixin h6 {
+	font-family: $font-family;
+	color: $txt-title;
+	font-size: $txt-smallest;
+	font-weight: 600;
+	line-height: $txt-smaller;
+}
